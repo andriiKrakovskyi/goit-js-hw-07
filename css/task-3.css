@@ -1,0 +1,23 @@
+.wrap-input {
+  padding: 24px;
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.wrap-input input {
+  color: #2e2f42;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 0 8px 16px;
+}
+
+.wrap-input h1,
+span {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+}

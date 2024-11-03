@@ -1,0 +1,39 @@
+.controls {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+  width: 486px;
+  height: 104px;
+}
+
+.controls input {
+  border-radius: 8px;
+  border: 1px solid #808080;
+  padding: 8px 72px;
+}
+
+.create-button {
+  width: 120px;
+  font-weight: 500;
+  background: #4e75ff;
+}
+
+.destroy-button {
+  width: 120px;
+  font-weight: 500;
+  background: #ff4e4e;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  gap: 44px;
+  padding: 32px;
+  border-radius: 8px;
+  background: #f6f6fe;
+}

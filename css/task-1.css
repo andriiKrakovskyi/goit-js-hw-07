@@ -1,0 +1,31 @@
+.list-wrap {
+  width: 440px;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.item {
+  background-color: #f6f6fe;
+  padding: 16px;
+}
+
+.item h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.item li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.item li {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 0px 8px 16px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
