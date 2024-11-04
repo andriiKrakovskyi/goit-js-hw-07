@@ -14,7 +14,8 @@ function createClick() {
     return;
   }
 
-  createBoxes(+inputNumber.value);
+  createBoxes(Number(inputNumber.value));
+  return;
 }
 
 function createBoxes(amount) {
@@ -32,9 +33,10 @@ function createBoxes(amount) {
     arr.push(myBox);
 
     sizes += 10;
-
-    box.append(...arr);
   }
+
+  box.append(...arr);
+  return;
 }
 
 function getRandomHexColor() {
@@ -47,4 +49,5 @@ function handleDestroy() {
   box.innerHTML = '';
   inputNumber.value = '';
   sizes = 30;
+  return;
 }

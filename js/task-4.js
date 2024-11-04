@@ -8,6 +8,7 @@ function handleForm(event) {
 
   if (!email.value || !password.value) {
     alert('All form fields must be filled in');
+    return;
   }
 
   const info = {
