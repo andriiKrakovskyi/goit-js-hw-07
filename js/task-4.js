@@ -13,7 +13,7 @@ function handleForm(event) {
 
   const info = {
     email: email.value.trim(),
-    password: password.trim(),
+    password: password.value.trim(),
   };
   console.log(info);
 
